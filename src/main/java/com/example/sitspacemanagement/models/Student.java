@@ -1,5 +1,15 @@
 package com.example.sitspacemanagement.models;
 
-public class Student {
+import lombok.*;
 
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+@EqualsAndHashCode
+public class Student {
+    int id;
+    String name;
+    double score;
+    String grade;
 }
